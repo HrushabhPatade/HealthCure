@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>
+Lung Cancer Project by Athang 
+</title>
+</head>
+<style>
+*{
+	font-size: 30px;
+	font-family: Courier New;
+}
+
+body{
+	background-image:url('/static/1.jpg')
+}
+
+img{
+width:170px;
+height:60px;
+}
+
+a
+{
+font-size:18px;
+padding-top: 2px;
+}
+a:link
+{
+color:black;
+text-decoration:none;
+}
+
+a:active
+{
+color:yellow;
+text-decoration:underline;
+}
+
+</style>
+<body>
+<img src="/static/logo.png" alt= "logo">
+<div style="text-align:right;">
+<a href="https://linktr.ee/Athang0" style="color:black"> Contact Me </a>
+</div>
+<center>
+<br>
+<div style = "background-color:#87CEEB; border-radius:5px; ">
+<br>
+<h1> Check whether you have Heart Disease or not?</h1>
+<br>
+<form action="/find">
+	<label> Smoking </label>
+	<input type = "radio" name = "r1" value = "no" checked> No </input>
+	<input type = "radio" name = "r1" value = "yes"> Yes </input>
+	<br><br>
+	
+	<label> Yellow Fingers </label>
+	<input type = "radio" name = "r2" value = "no" checked> No </input>
+	<input type = "radio" name = "r2" value = "yes"> Yes </input>
+	<br><br>
+	
+	<label> Anxiety </label>
+	<input type = "radio" name = "r3" value = "no" checked> No </input>
+	<input type = "radio" name = "r3" value = "yes"> Yes </input>
+	<br><br>
+	
+	<label> Chronic Disease </label>
+	<input type = "radio" name = "r4" value = "no" checked> No </input>
+	<input type = "radio" name = "r4" value = "yes"> Yes </input>
+	<br><br>
+	
+	<label> Allergy </label>
+	<input type = "radio" name = "r5" value = "no" checked> No </input>
+	<input type = "radio" name = "r5" value = "yes"> Yes </input>
+	<br><br>
+	
+	<label> Alcohol Consuming </label>
+	<input type = "radio" name = "r6" value = "no" checked> No </input>
+	<input type = "radio" name = "r6" value = "yes"> Yes </input>
+	<br><br>
+	
+	<label> Coughing </label>
+	<input type = "radio" name = "r7" value = "no" checked> No </input>
+	<input type = "radio" name = "r7" value = "yes"> Yes </input>
+	<br><br>
+	
+	<label> Shortness of Breath </label>
+	<input type = "radio" name = "r8" value = "no" checked> No </input>
+	<input type = "radio" name = "r8" value = "yes"> Yes </input>
+	<br><br>
+
+	<label> Swallowing Difficulty </label>
+	<input type = "radio" name = "r9" value = "no" checked> No </input>
+	<input type = "radio" name = "r9" value = "yes"> Yes </input>
+	<br><br>
+		
+	<label> Chest Pain </label>
+	<input type = "radio" name = "r10" value = "no" checked> No </input>
+	<input type = "radio" name = "r10" value = "yes"> Yes </input>
+	<br><br>
+		
+	<input type = "submit" value="Find">
+
+</form>
+<br>
+{{ m }}
+<br><br>
+</div>
+</center>
+</body>
+</html>
