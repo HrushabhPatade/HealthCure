@@ -11,6 +11,9 @@ This system utilizes Machine Learning techniques to predict Lung Cancer based 
 - High Accuracy
 - User Friendly UI
 
+## Quick look of Application
+
+![](Image%202.png)
 
 ## Tech Stack
 
@@ -23,7 +26,7 @@ This system utilizes Machine Learning techniques to predict Lung Cancer based 
 
 ## Dataset Link
 
-**Dataset:** https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer
+<a href= "https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer">**Lung Cancer Dataset** </a>
 ## Run Locally
 
 Clone the project
@@ -76,7 +79,7 @@ I'm now learning about data visualization and machine learning.
 
 💬 Ask me about... Anything 
 
-📫 How to reach me... https://linktr.ee/Athang0
+📫 How to reach me... <a href="https://linktr.ee/Athang0"> Click here </a>
 
 😄 Pronouns... he/him
 
