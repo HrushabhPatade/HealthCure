@@ -1,32 +1,44 @@
 
 # Lung Cancer Prediction using Machine Learning
 
+
 This system utilizes Machine Learning techniques to predict Lung Cancer based on a set of parameters.
 
 
+
 ## Features
+
 
 - Lung Cancer Prediction using Machine Learning
 - Precise Output
 - High Accuracy
 - User Friendly UI
 
+
 ## Quick look of Application
+
 
 ![](Image%202.png)
 
+
 ## Tech Stack
+
 
 **Client:** HTML, CSS
 
+
 **Server:** Flask
+
 
 **Model:** Naive Bayes Classifier
 
 
+
 ## Dataset Link
 
+
 <a href= "https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer">**Lung Cancer Dataset** </a>
+
 ## Run Locally
 
 Clone the project
