@@ -1,0 +1,55 @@
+.bg-image img {
+  width: 1400px;
+  height: auto;
+}
+
+.mainbody {
+  background-color: #eaecff;
+}
+
+.mainbody button {
+  background-color: #522f34;
+  color: #eaecff;
+}
+
+btn {
+  text-align: center;
+}
+
+.hinfo {
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #522f34;
+}
+
+.info {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  color: #522f34;
+  text-align: justify;
+}
+
+.float-start,
+.bg-image,
+.bottom {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+
+form {
+  background-color: #eaecff;
+}
+
+h5,
+label,
+input {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+input[type="submit"] {
+  background-color: #522f34;
+  color: #eaecff;
+}

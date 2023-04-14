@@ -1,11 +1,15 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, url_for
 import pickle
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-	return render_template("home.html")
+	return render_template("home2.html")
+
+@app.route('/form')
+def form():
+    return render_template("form.html")
 
 @app.route("/find")
 def find():
@@ -62,14 +66,16 @@ def find():
 	with open("lungc.model", "rb") as f:
 		model = pickle.load(f)
 	data = [[a,b,c,d,e,z,g,h,i,j]]
+	print(data)
 	res = model.predict(data)
+ 
 	res1 = res[0]
 	if res1 == "YES":
 		msg = "Lung Cancer is Detected"
 	else:
 		msg = "Lung Cancer is not Detected"
 	
-	return render_template("home.html", m=msg)
+	return render_template("form.html", m=msg)
 
 if __name__ == "__main__":
 	app.run(debug=True, use_reloader=True)	
