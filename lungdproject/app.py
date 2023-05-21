@@ -66,14 +66,14 @@ def find():
 	with open("lungc.model", "rb") as f:
 		model = pickle.load(f)
 	data = [[a,b,c,d,e,z,g,h,i,j]]
-	print(data)
+	# print(data)
 	res = model.predict(data)
  
 	res1 = res[0]
 	if res1 == "YES":
 		msg = "Lung Cancer is Detected"
 	else:
-		msg = "Lung Cancer is not Detected"
+		msg = "Congratulations! Lung Cancer is not Detected"
 	
 	return render_template("form.html", m=msg)
 
